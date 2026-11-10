@@ -1,0 +1,23 @@
+{
+  "name": "think-language-temperature",
+  "version": "2.0.0",
+  "description": "OpenCode plugin that sets a per-session reasoning language and model temperature (中文推理 0.3 / 英文推理 0.7 / 自动 0.5).",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "plugins/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./plugins/think-language-temperature.js"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "reasoning",
+    "reasoning-language",
+    "temperature"
+  ]
+}
